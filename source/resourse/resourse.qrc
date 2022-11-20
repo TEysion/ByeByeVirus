@@ -1,0 +1,55 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>images/bg1.png</file>
+        <file>images/dnabullet.png</file>
+        <file>images/nutshell1.png</file>
+        <file>images/nutshell2.png</file>
+        <file>images/nutshell3.png</file>
+        <file>images/nutshell4.png</file>
+        <file>images/pinkcell.png</file>
+        <file>images/whitecell.png</file>
+        <file>images/font.png</file>
+        <file>images/buff.png</file>
+        <file>images/buffnutshell.png</file>
+        <file>images/bomb1.png</file>
+        <file>images/bomb3.png</file>
+        <file>images/bomb2.png</file>
+        <file>images/warn.png</file>
+        <file>images/attackbuffdrop.png</file>
+        <file>images/friendbuffdrop.png</file>
+        <file>images/shootbuffdrop.png</file>
+        <file>images/speedbuffdrop.png</file>
+        <file>images/title.png</file>
+        <file>images/lock.png</file>
+        <file>images/about.png</file>
+        <file>images/save.png</file>
+        <file>images/book.png</file>
+        <file>images/icon.png</file>
+        <file>images/mrq01.png</file>
+        <file>images/mrq02.png</file>
+        <file>images/mrq03.png</file>
+        <file>images/mrq04.png</file>
+        <file>images/grprogressbarbg.png</file>
+    </qresource>
+    <qresource prefix="/music">
+        <file>musics/biu.wav</file>
+        <file>musics/bomb.wav</file>
+        <file>musics/warn.wav</file>
+        <file>musics/pass.wav</file>
+        <file>musics/fail.wav</file>
+        <file>musics/bg1.wav</file>
+        <file>musics/bg2.wav</file>
+        <file>musics/bg3.wav</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>shader/font.frag</file>
+        <file>shader/font.vert</file>
+        <file>shader/test.frag</file>
+        <file>shader/test.vert</file>
+        <file>shader/bg.frag</file>
+        <file>shader/bg.vert</file>
+    </qresource>
+    <qresource prefix="/qss">
+        <file>style/global.qss</file>
+    </qresource>
+</RCC>

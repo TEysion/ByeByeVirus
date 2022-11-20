@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gamescene\AboutScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gameobject\Bullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gameobject\Cell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gameconfig\Config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gamescene\FileSaveScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gamescene\GameScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gamescene\HandBookscene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gamewidget\MPushButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gamescene\MainMenuScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gameobject\Material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gameobject\Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gameconfig\PlayerMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gamewidget\RProgressBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gameobject\ResourceEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gameconfig\StageData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gameobject\Virus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gameobject\VirusDefensive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gameobject\VirusSpike.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gameobject\VirusSwell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="gamescene\AboutScene.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="gameobject\Bullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gameobject\Cell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gameconfig\Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="gamescene\FileSaveScene.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="gamescene\GameScene.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="gamescene\HandBookscene.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="gamewidget\MPushButton.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="gamescene\MainMenuScene.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="gameobject\Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gameobject\Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gameconfig\PlayerMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gamewidget\RProgressBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gameobject\ResourceEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gameconfig\StageData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gameobject\Virus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gameobject\VirusDefensive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gameobject\VirusSpike.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gameobject\VirusSwell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    
+    
+    
+    
+    
+    
+    
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="gamescene\aboutscene.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="gamescene\filesavescene.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="gamescene\gamescene.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="gamescene\handbookscene.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="gamescene\mainmenuscene.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resourse\images\about.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\images\attackbuffdrop.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\shader\bg.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\shader\bg.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\images\bg1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\musics\bg1.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\musics\bg2.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\musics\bg3.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\musics\biu.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\musics\bomb.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\images\bomb1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\images\bomb2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\images\bomb3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\images\book.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\images\buff.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\images\buffnutshell.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\images\dnabullet.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\musics\fail.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\shader\font.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\images\font.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\shader\font.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\images\friendbuffdrop.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\style\global.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\images\grprogressbarbg.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\images\icon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\images\lock.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\images\mrq01.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\images\mrq02.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\images\mrq03.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\images\mrq04.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\images\nutshell1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\images\nutshell2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\images\nutshell3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\images\nutshell4.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\musics\pass.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\images\pinkcell.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="resourse\resourse.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="resourse\images\save.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\images\shootbuffdrop.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\images\speedbuffdrop.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\shader\test.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\shader\test.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\images\title.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\images\warn.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\musics\warn.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resourse\images\whitecell.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resourse\logo.rc" />
+  </ItemGroup>
+</Project>

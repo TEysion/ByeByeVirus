@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HandBookScene</class>
+ <widget class="QWidget" name="HandBookScene">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>535</width>
+    <height>644</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>515</width>
+        <height>624</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <widget class="QWidget" name="">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>517</width>
+         <height>620</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="2" column="0">
+         <widget class="QLabel" name="label_3">
+          <property name="styleSheet">
+           <string notr="true">min-height:200px;</string>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:700; color:#ff0000;&quot;&gt;碰撞病毒&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#ffaa00;&quot;&gt;特性：无（只具有最普通的特点，向前以及左右移动）&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#ffaa00;&quot;&gt;原型：SARS病毒&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#ffaa7f;&quot;&gt;tips:非典病毒属于冠状病毒，是一种起病急、&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#ffaa7f;&quot;&gt;传播快、病死率高的传染病。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QLabel" name="label_9">
+          <property name="styleSheet">
+           <string notr="true">min-height:150px;</string>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:700; color:#ff0000;&quot;&gt;防御病毒&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#ffaa00;&quot;&gt;特性：具有较高的生命值&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#ffaa00;&quot;&gt;原型：狂犬病毒&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#ffaa7f;&quot;&gt;tips:狂犬病患者，常表现为高度兴奋和激动，&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#ffaa7f;&quot;&gt;恐水怕水等症状。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QLabel" name="label_4">
+          <property name="styleSheet">
+           <string notr="true">background-image:url(:/img/images/mrq04.png);
+background-repeat: no-repeat;
+background-position: center;
+min-height:80px;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1" rowspan="2">
+         <widget class="QLabel" name="label_2">
+          <property name="styleSheet">
+           <string notr="true">min-height:80px;</string>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:700; color:#ff0000;&quot;&gt;膨胀病毒&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#ffaa00;&quot;&gt;特性：体积会突然变大&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#ffaa00;&quot;&gt;原型：马秋波病毒&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#ffaa7f;&quot;&gt;tips:马秋波病毒是一种沙粒病毒，&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#ffaa7f;&quot;&gt;该病毒由老鼠携带。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <widget class="QLabel" name="label_7">
+          <property name="styleSheet">
+           <string notr="true">min-height:80px;</string>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:700; color:#ff0000;&quot;&gt;变速病毒&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#ffaa00;&quot;&gt;特性：会突然加速向前，且会后退&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#ffaa00;&quot;&gt;原型：丙肝病毒&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; color:#ffaa7f;&quot;&gt;tips:该病毒可导致肝脏慢性炎症坏死，&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; color:#ffaa7f;&quot;&gt;主要由输血、吸毒传播。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLabel" name="label_5">
+          <property name="styleSheet">
+           <string notr="true">background-image:url(:/img/images/mrq03.png);
+background-repeat: no-repeat;
+background-position: center;
+min-height:150px;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLabel" name="label_6">
+          <property name="styleSheet">
+           <string notr="true">background-image:url(:/img/images/mrq02.png);
+background-repeat: no-repeat;
+background-position: center;
+min-height:100px;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0" rowspan="2">
+         <widget class="QLabel" name="label">
+          <property name="styleSheet">
+           <string notr="true">background-image:url(:/img/images/mrq01.png);
+background-repeat: no-repeat;
+background-position: center;
+min-height:100px;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

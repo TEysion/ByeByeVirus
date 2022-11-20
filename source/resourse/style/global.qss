@@ -1,0 +1,187 @@
+﻿/*------------------主窗口的样式---------------------*/
+
+
+.QWidget {
+    background-color:#00000000;
+}
+
+
+.QWidget[type="containerwidget"] {
+    background-color: #50000000;
+    border: 3px solid rgb(77, 156, 248);
+    border-radius: 15px;
+}
+
+/*------------------选关按钮的样式---------------------*/
+/*------------------样式中前后顺序影响空间显示的优先级-------------------*/
+.QPushButton {
+    padding: 2px 4px;
+    min-width: 100px;
+    min-height: 50px;
+    font-size: 14px;
+}
+
+/*------------------选关按钮的样式---------------------*/
+/*------------------样式中前后顺序影响空间显示的优先级-------------------*/
+.MPushButton {
+    border-radius: 15px;
+    padding: 2px 4px;
+    min-width: 100px;
+    min-height: 50px;
+    color: black;
+    background: rgb(220, 220, 220);
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+}
+
+/*------------------选存档按钮的样式---------------------*/
+/*------------------样式中前后顺序影响空间显示的优先级-------------------*/
+.MPushButton[type="fill"] {
+    border-top-left-radius:15px;
+    border-top-right-radius:0px;
+    border-bottom-right-radius:0px;
+    border-bottom-left-radius:15px;
+    margin:1px;
+    min-width: 100px;
+    min-height: 50px;
+    color: black;
+    background: rgb(220, 220, 220);
+    font-size: 14px;
+}
+
+
+/*悬浮时的样式*/
+.MPushButton:hover {
+
+    background: #13F584
+}
+
+/*按下时的样式*/
+.MPushButton:pressed {
+
+    color: black;
+    background: #0F9D56;
+}
+
+/*失效时的样式*/
+.MPushButton:!enabled {
+    color: rgb(128, 128, 128);
+    background: rgb(191, 191, 191);
+    background-image: url(:img/images/lock.png);
+    background-origin: content;
+    background-position: left;
+    background-repeat: no-repeat;
+
+    text-align: center;
+    padding-right: 5px;
+
+    font-size: 12px;
+    color: #FFFFFF;
+
+
+}
+
+
+
+
+.MPushButton[type="delete"] {
+    border-top-left-radius:0px;
+    border-top-right-radius:15px;
+    border-bottom-right-radius:15px;
+    border-bottom-left-radius:0px;
+    padding: 2px 4px;
+    margin:1px;
+    max-width: 50px;
+    max-height: 50px;
+    color: black;
+    background: #FF9C4C;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+}
+
+/*悬浮时的样式*/
+.MPushButton:hover[type="delete"] {
+
+    background: #ff0000;
+}
+
+
+.QScrollArea{
+        background-color: #50000000;
+        border: 3px solid rgb(77, 156, 248);
+        border-radius: 15px;
+}
+
+QScrollBar::vertical {
+    background: #00ffb1f0;
+    width: 8px;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:vertical {
+        margin-top:5px;
+        margin-bottom:5px;
+    background: #aab1f0;
+    width: 8px;
+    border-radius: 4px;
+}
+
+QScrollBar::add-line:vertical {
+    background: none;
+    border: none;
+}
+
+QScrollBar::sub-line:vertical {
+    background: none;
+    border: none;
+}
+
+QScrollBar::add-page:vertical {
+    background: transparent;
+    border: none;
+}
+
+QScrollBar::sub-page:vertical {
+    background: transparent;
+    border: none;
+}
+/*
+QScrollArea {
+    border-radius: 15px;
+    border-right-width: 1px;
+    border-right-color: #dcdbdc;
+    background-color: #0000003E;
+} */
+
+/* QScrollBar::vertical {
+    background: transparent;
+    width: 8px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:vertical {
+    background: #6eb1f0;
+    width: 8px;
+    border-radius: 5px;
+}
+
+QScrollBar::add-line:vertical {
+    background: none;
+    border: none;
+}
+
+QScrollBar::sub-line:vertical {
+    background: none;
+    border: none;
+}
+
+QScrollBar::add-page:vertical {
+    background: transparent;
+    border: none;
+}
+
+QScrollBar::sub-page:vertical {
+    background: transparent;
+    border: none;
+} */
