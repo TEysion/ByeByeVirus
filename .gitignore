@@ -1,6 +1,8 @@
 source/debug/
 build-ByeByeVirus-Desktop_Qt_6_4_1_MSVC2019_64bit-Debug/
 build-ByeByeVirus-Desktop_Qt_6_4_1_MSVC2019_64bit-Release/
+build-ByeByeVirus-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/
+build-ByeByeVirus-Desktop_Qt_6_4_1_MinGW_64_bit-Release/
 附件/可执行程序
 *.Debug
 *.Release
