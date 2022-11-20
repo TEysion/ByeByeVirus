@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'handbookscene.ui'
 **
-** Created by: Qt User Interface Compiler version 6.3.0
+** Created by: Qt User Interface Compiler version 6.4.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -25,7 +25,7 @@ public:
     QVBoxLayout *verticalLayout;
     QScrollArea *scrollArea;
     QWidget *scrollAreaWidgetContents_2;
-    QWidget *widget;
+    QWidget *layoutWidget;
     QGridLayout *gridLayout;
     QLabel *label_3;
     QLabel *label_9;
@@ -39,37 +39,37 @@ public:
     void setupUi(QWidget *HandBookScene)
     {
         if (HandBookScene->objectName().isEmpty())
-            HandBookScene->setObjectName(QString::fromUtf8("HandBookScene"));
+            HandBookScene->setObjectName("HandBookScene");
         HandBookScene->resize(535, 644);
         verticalLayout = new QVBoxLayout(HandBookScene);
-        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
+        verticalLayout->setObjectName("verticalLayout");
         scrollArea = new QScrollArea(HandBookScene);
-        scrollArea->setObjectName(QString::fromUtf8("scrollArea"));
+        scrollArea->setObjectName("scrollArea");
         scrollArea->setWidgetResizable(true);
         scrollAreaWidgetContents_2 = new QWidget();
-        scrollAreaWidgetContents_2->setObjectName(QString::fromUtf8("scrollAreaWidgetContents_2"));
-        scrollAreaWidgetContents_2->setGeometry(QRect(0, 0, 515, 624));
+        scrollAreaWidgetContents_2->setObjectName("scrollAreaWidgetContents_2");
+        scrollAreaWidgetContents_2->setGeometry(QRect(0, 0, 511, 620));
         scrollAreaWidgetContents_2->setMinimumSize(QSize(0, 0));
-        widget = new QWidget(scrollAreaWidgetContents_2);
-        widget->setObjectName(QString::fromUtf8("widget"));
-        widget->setGeometry(QRect(0, 0, 517, 620));
-        gridLayout = new QGridLayout(widget);
-        gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
+        layoutWidget = new QWidget(scrollAreaWidgetContents_2);
+        layoutWidget->setObjectName("layoutWidget");
+        layoutWidget->setGeometry(QRect(0, 0, 658, 623));
+        gridLayout = new QGridLayout(layoutWidget);
+        gridLayout->setObjectName("gridLayout");
         gridLayout->setContentsMargins(0, 0, 0, 0);
-        label_3 = new QLabel(widget);
-        label_3->setObjectName(QString::fromUtf8("label_3"));
+        label_3 = new QLabel(layoutWidget);
+        label_3->setObjectName("label_3");
         label_3->setStyleSheet(QString::fromUtf8("min-height:200px;"));
 
         gridLayout->addWidget(label_3, 2, 0, 1, 1);
 
-        label_9 = new QLabel(widget);
-        label_9->setObjectName(QString::fromUtf8("label_9"));
+        label_9 = new QLabel(layoutWidget);
+        label_9->setObjectName("label_9");
         label_9->setStyleSheet(QString::fromUtf8("min-height:150px;"));
 
         gridLayout->addWidget(label_9, 5, 0, 1, 1);
 
-        label_4 = new QLabel(widget);
-        label_4->setObjectName(QString::fromUtf8("label_4"));
+        label_4 = new QLabel(layoutWidget);
+        label_4->setObjectName("label_4");
         label_4->setStyleSheet(QString::fromUtf8("background-image:url(:/img/images/mrq04.png);\n"
 "background-repeat: no-repeat;\n"
 "background-position: center;\n"
@@ -77,20 +77,20 @@ public:
 
         gridLayout->addWidget(label_4, 4, 1, 1, 1);
 
-        label_2 = new QLabel(widget);
-        label_2->setObjectName(QString::fromUtf8("label_2"));
+        label_2 = new QLabel(layoutWidget);
+        label_2->setObjectName("label_2");
         label_2->setStyleSheet(QString::fromUtf8("min-height:80px;"));
 
         gridLayout->addWidget(label_2, 2, 1, 2, 1);
 
-        label_7 = new QLabel(widget);
-        label_7->setObjectName(QString::fromUtf8("label_7"));
+        label_7 = new QLabel(layoutWidget);
+        label_7->setObjectName("label_7");
         label_7->setStyleSheet(QString::fromUtf8("min-height:80px;"));
 
         gridLayout->addWidget(label_7, 5, 1, 1, 1);
 
-        label_5 = new QLabel(widget);
-        label_5->setObjectName(QString::fromUtf8("label_5"));
+        label_5 = new QLabel(layoutWidget);
+        label_5->setObjectName("label_5");
         label_5->setStyleSheet(QString::fromUtf8("background-image:url(:/img/images/mrq03.png);\n"
 "background-repeat: no-repeat;\n"
 "background-position: center;\n"
@@ -98,8 +98,8 @@ public:
 
         gridLayout->addWidget(label_5, 4, 0, 1, 1);
 
-        label_6 = new QLabel(widget);
-        label_6->setObjectName(QString::fromUtf8("label_6"));
+        label_6 = new QLabel(layoutWidget);
+        label_6->setObjectName("label_6");
         label_6->setStyleSheet(QString::fromUtf8("background-image:url(:/img/images/mrq02.png);\n"
 "background-repeat: no-repeat;\n"
 "background-position: center;\n"
@@ -107,8 +107,8 @@ public:
 
         gridLayout->addWidget(label_6, 0, 1, 1, 1);
 
-        label = new QLabel(widget);
-        label->setObjectName(QString::fromUtf8("label"));
+        label = new QLabel(layoutWidget);
+        label->setObjectName("label");
         label->setStyleSheet(QString::fromUtf8("background-image:url(:/img/images/mrq01.png);\n"
 "background-repeat: no-repeat;\n"
 "background-position: center;\n"

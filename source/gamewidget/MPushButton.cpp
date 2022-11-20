@@ -52,5 +52,4 @@ void MPushButton::zoom2()
 
 MPushButton::~MPushButton()
 {
-    qDebug() << "析构葛政锟";
 }

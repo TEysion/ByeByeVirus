@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mainmenuscene.ui'
 **
-** Created by: Qt User Interface Compiler version 6.3.0
+** Created by: Qt User Interface Compiler version 6.4.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -41,21 +41,21 @@ public:
     void setupUi(QWidget *MainMenuScene)
     {
         if (MainMenuScene->objectName().isEmpty())
-            MainMenuScene->setObjectName(QString::fromUtf8("MainMenuScene"));
+            MainMenuScene->setObjectName("MainMenuScene");
         MainMenuScene->resize(500, 700);
         verticalLayoutWidget_2 = new QWidget(MainMenuScene);
-        verticalLayoutWidget_2->setObjectName(QString::fromUtf8("verticalLayoutWidget_2"));
+        verticalLayoutWidget_2->setObjectName("verticalLayoutWidget_2");
         verticalLayoutWidget_2->setGeometry(QRect(0, -1, 501, 701));
         base = new QVBoxLayout(verticalLayoutWidget_2);
         base->setSpacing(0);
-        base->setObjectName(QString::fromUtf8("base"));
+        base->setObjectName("base");
         base->setContentsMargins(0, 0, 0, 0);
         verticalSpacer_2 = new QSpacerItem(20, 20, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         base->addItem(verticalSpacer_2);
 
         label = new QLabel(verticalLayoutWidget_2);
-        label->setObjectName(QString::fromUtf8("label"));
+        label->setObjectName("label");
         QSizePolicy sizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
@@ -74,22 +74,22 @@ public:
         base->addItem(verticalSpacer);
 
         scrollArea = new QScrollArea(verticalLayoutWidget_2);
-        scrollArea->setObjectName(QString::fromUtf8("scrollArea"));
+        scrollArea->setObjectName("scrollArea");
         scrollArea->setMinimumSize(QSize(400, 0));
         scrollArea->setMaximumSize(QSize(400, 16777215));
         scrollArea->setStyleSheet(QString::fromUtf8(""));
         scrollArea->setWidgetResizable(true);
         scrollAreaWidgetContents = new QWidget();
-        scrollAreaWidgetContents->setObjectName(QString::fromUtf8("scrollAreaWidgetContents"));
+        scrollAreaWidgetContents->setObjectName("scrollAreaWidgetContents");
         scrollAreaWidgetContents->setGeometry(QRect(0, 0, 377, 600));
         scrollAreaWidgetContents->setMinimumSize(QSize(300, 600));
         scrollAreaWidgetContents->setMaximumSize(QSize(400, 16777215));
         scrollAreaWidgetContents->setStyleSheet(QString::fromUtf8(""));
         verticalLayoutWidget = new QWidget(scrollAreaWidgetContents);
-        verticalLayoutWidget->setObjectName(QString::fromUtf8("verticalLayoutWidget"));
+        verticalLayoutWidget->setObjectName("verticalLayoutWidget");
         verticalLayoutWidget->setGeometry(QRect(10, 10, 361, 651));
         verticalLayout = new QVBoxLayout(verticalLayoutWidget);
-        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
+        verticalLayout->setObjectName("verticalLayout");
         verticalLayout->setSizeConstraint(QLayout::SetMaximumSize);
         verticalLayout->setContentsMargins(0, 0, 0, 0);
         scrollArea->setWidget(scrollAreaWidgetContents);
@@ -98,10 +98,10 @@ public:
 
         horizontalLayout = new QHBoxLayout();
         horizontalLayout->setSpacing(50);
-        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
+        horizontalLayout->setObjectName("horizontalLayout");
         horizontalLayout->setContentsMargins(50, 25, 50, 15);
         label_2 = new QLabel(verticalLayoutWidget_2);
-        label_2->setObjectName(QString::fromUtf8("label_2"));
+        label_2->setObjectName("label_2");
         label_2->setSizeIncrement(QSize(10, 10));
         label_2->setBaseSize(QSize(10, 10));
         QFont font;
@@ -131,7 +131,7 @@ public:
         horizontalLayout->addWidget(label_2);
 
         label_4 = new QLabel(verticalLayoutWidget_2);
-        label_4->setObjectName(QString::fromUtf8("label_4"));
+        label_4->setObjectName("label_4");
         label_4->setFont(font);
         label_4->setStyleSheet(QString::fromUtf8(".QLabel{\n"
 "background-image: url(:img/images/book.png);\n"
@@ -156,7 +156,7 @@ public:
         horizontalLayout->addWidget(label_4);
 
         label_3 = new QLabel(verticalLayoutWidget_2);
-        label_3->setObjectName(QString::fromUtf8("label_3"));
+        label_3->setObjectName("label_3");
         QPalette palette;
         QBrush brush(QColor(0, 0, 0, 0));
         brush.setStyle(Qt::SolidPattern);

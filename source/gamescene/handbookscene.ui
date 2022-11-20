@@ -24,8 +24,8 @@
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>515</width>
-        <height>624</height>
+        <width>511</width>
+        <height>620</height>
        </rect>
       </property>
       <property name="minimumSize">
@@ -34,13 +34,13 @@
         <height>0</height>
        </size>
       </property>
-      <widget class="QWidget" name="">
+      <widget class="QWidget" name="layoutWidget">
        <property name="geometry">
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>517</width>
-         <height>620</height>
+         <width>658</width>
+         <height>623</height>
         </rect>
        </property>
        <layout class="QGridLayout" name="gridLayout">

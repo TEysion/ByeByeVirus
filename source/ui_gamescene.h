@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'gamescene.ui'
 **
-** Created by: Qt User Interface Compiler version 6.3.0
+** Created by: Qt User Interface Compiler version 6.4.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -30,18 +30,18 @@ public:
     void setupUi(QWidget *Form)
     {
         if (Form->objectName().isEmpty())
-            Form->setObjectName(QString::fromUtf8("Form"));
+            Form->setObjectName("Form");
         Form->resize(500, 700);
         verticalLayoutWidget = new QWidget(Form);
-        verticalLayoutWidget->setObjectName(QString::fromUtf8("verticalLayoutWidget"));
+        verticalLayoutWidget->setObjectName("verticalLayoutWidget");
         verticalLayoutWidget->setGeometry(QRect(430, 80, 61, 551));
         verticalLayout = new QVBoxLayout(verticalLayoutWidget);
         verticalLayout->setSpacing(0);
-        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
+        verticalLayout->setObjectName("verticalLayout");
         verticalLayout->setSizeConstraint(QLayout::SetNoConstraint);
         verticalLayout->setContentsMargins(0, 0, 0, 0);
         label_2 = new QLabel(Form);
-        label_2->setObjectName(QString::fromUtf8("label_2"));
+        label_2->setObjectName("label_2");
         label_2->setGeometry(QRect(10, 0, 171, 41));
         QPalette palette;
         QBrush brush(QColor(255, 255, 255, 255));
@@ -58,7 +58,7 @@ public:
         font.setPointSize(15);
         label_2->setFont(font);
         label_3 = new QLabel(Form);
-        label_3->setObjectName(QString::fromUtf8("label_3"));
+        label_3->setObjectName("label_3");
         label_3->setGeometry(QRect(420, 10, 54, 16));
         QPalette palette1;
         palette1.setBrush(QPalette::Active, QPalette::WindowText, brush);
@@ -66,7 +66,7 @@ public:
         palette1.setBrush(QPalette::Disabled, QPalette::WindowText, brush2);
         label_3->setPalette(palette1);
         label = new QLabel(Form);
-        label->setObjectName(QString::fromUtf8("label"));
+        label->setObjectName("label");
         label->setGeometry(QRect(0, 70, 501, 51));
         QPalette palette2;
         QBrush brush3(QColor(255, 0, 0, 255));
@@ -83,7 +83,7 @@ public:
         label->setLayoutDirection(Qt::LeftToRight);
         label->setAlignment(Qt::AlignCenter);
         label_4 = new QLabel(Form);
-        label_4->setObjectName(QString::fromUtf8("label_4"));
+        label_4->setObjectName("label_4");
         label_4->setGeometry(QRect(0, 240, 501, 191));
         QPalette palette3;
         palette3.setBrush(QPalette::Active, QPalette::WindowText, brush);

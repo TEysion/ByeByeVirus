@@ -1,0 +1,7 @@
+source/debug/
+build-ByeByeVirus-Desktop_Qt_6_4_1_MSVC2019_64bit-Debug/
+*.Debug
+*.Release
+*.pro.user
+Makefile
+compile_commands.json

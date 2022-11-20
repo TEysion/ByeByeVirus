@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'filesavescene.ui'
 **
-** Created by: Qt User Interface Compiler version 6.3.0
+** Created by: Qt User Interface Compiler version 6.4.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -30,14 +30,14 @@ public:
     void setupUi(QWidget *FileSaveScene)
     {
         if (FileSaveScene->objectName().isEmpty())
-            FileSaveScene->setObjectName(QString::fromUtf8("FileSaveScene"));
+            FileSaveScene->setObjectName("FileSaveScene");
         FileSaveScene->resize(500, 700);
         FileSaveScene->setWindowOpacity(5.000000000000000);
         verticalLayoutWidget = new QWidget(FileSaveScene);
-        verticalLayoutWidget->setObjectName(QString::fromUtf8("verticalLayoutWidget"));
+        verticalLayoutWidget->setObjectName("verticalLayoutWidget");
         verticalLayoutWidget->setGeometry(QRect(0, 0, 501, 701));
         verticalLayout = new QVBoxLayout(verticalLayoutWidget);
-        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
+        verticalLayout->setObjectName("verticalLayout");
         verticalLayout->setSizeConstraint(QLayout::SetMaximumSize);
         verticalLayout->setContentsMargins(0, 0, 0, 0);
         verticalSpacer_2 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
@@ -45,7 +45,7 @@ public:
         verticalLayout->addItem(verticalSpacer_2);
 
         label = new QLabel(verticalLayoutWidget);
-        label->setObjectName(QString::fromUtf8("label"));
+        label->setObjectName("label");
         label->setMinimumSize(QSize(400, 150));
         label->setMaximumSize(QSize(400, 150));
         label->setSizeIncrement(QSize(400, 100));
